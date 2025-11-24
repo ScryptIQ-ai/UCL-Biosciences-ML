@@ -3,8 +3,8 @@
 Welcome to this introductory teaching module in machine learning for bio-scientists from [Learn to Discover](https://learntodiscover.ai/) in partnership with UCL.
 
 The code for this project is in three notebooks: 
-1. [Data exploration](1_data_explore.ipynb)
-2. [Classical ML](2_supervised_ml.ipynb)
+1. [Data exploration](./notebooks/01_data_explore.ipynb)
+2. [Supervised ML](./notebooks/02_supervised_ml.ipynb)
 
 ## Setup
 
