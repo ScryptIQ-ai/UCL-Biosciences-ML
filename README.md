@@ -42,6 +42,10 @@ AIBio-demo
 |
 ├── assets
 │   └── images for notebooks
+│
+├── code-along
+│   ├── 02_data_explore.ipynb
+│   └── 03_supervised_ml.ipynb
 |
 ├── data
 │   └── various datasets
