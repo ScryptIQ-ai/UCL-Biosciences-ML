@@ -3,13 +3,13 @@
 Welcome to this introductory teaching module in machine learning for bio-scientists from [Learn to Discover](https://learntodiscover.ai/) in partnership with UCL.
 
 The code for this project is in three notebooks: 
-1. [Data exploration](1_data_explore.ipynb)
-2. [Classical ML](2_supervised_ml.ipynb)
+1. [Data exploration](./notebooks/01_data_explore.ipynb)
+2. [Supervised ML](./notebooks/02_supervised_ml.ipynb)
 
 ## Setup
 
 To use the code in this repository you'll need to perform the following steps:
-- install `uv` (another environment and package manager, along with Python)
+- install `uv` (another environment and package manager, along with Python) or another package 
 - clone the repository
 - create a virtual environment and install the dependencies 
 - open the notebook in the virtual environment
@@ -39,18 +39,26 @@ This should create a new directory called `UCL-Biosciences-ML` in the location y
 
 ```
 AIBio-demo
-├── 1_data_explore.ipynb
-├── 2_ml.ipynb
+|
 ├── assets
-│   └── fna_pic.png
+│   └── images for notebooks
+│
+├── code-along
+│   ├── 02_data_explore.ipynb
+│   └── 03_supervised_ml.ipynb
+|
 ├── data
-│   └── breast_cancer.csv
+│   └── various datasets
+|
+├── notebooks
+│   ├── 01_ml_state_space.ipynb
+│   ├── 02_data_explore.ipynb
+│   └── 03_supervised_ml.ipynb
+|
 ├── pyproject.toml
 ├── README.md
 └── uv.lock
 ```
-
-Along with some hidden files. 
 
 ### Create an environment and install the dependencies 
 
