@@ -9,7 +9,7 @@ The code for this project is in three notebooks:
 ## Setup
 
 To use the code in this repository you'll need to perform the following steps:
-- install `uv` (another environment and package manager, along with Python)
+- install `uv` (another environment and package manager, along with Python) or another package 
 - clone the repository
 - create a virtual environment and install the dependencies 
 - open the notebook in the virtual environment
@@ -39,18 +39,22 @@ This should create a new directory called `UCL-Biosciences-ML` in the location y
 
 ```
 AIBio-demo
-├── 1_data_explore.ipynb
-├── 2_ml.ipynb
+|
 ├── assets
-│   └── fna_pic.png
+│   └── images for notebooks
+|
 ├── data
-│   └── breast_cancer.csv
+│   └── various datasets
+|
+├── notebooks
+│   ├── 01_ml_state_space.ipynb
+│   ├── 02_data_explore.ipynb
+│   └── 03_supervised_ml.ipynb
+|
 ├── pyproject.toml
 ├── README.md
 └── uv.lock
 ```
-
-Along with some hidden files. 
 
 ### Create an environment and install the dependencies 
 
