@@ -1,0 +1,40 @@
+{
+  "name": "L2D_VE Codespace",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "forwardPorts": [8888],
+  "containerEnv": {
+    "PIP_USER": "false"
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/home/vscode/.venv/bin/python",
+        "python.terminal.activateEnvInCurrentTerminal": true,
+        "python.venvFolders": [
+          "/home/vscode/.venv"
+        ],
+        "python.pythonPath": "/home/vscode/.venv/bin/python",
+        "jupyter.kernels.trusted": [
+          "/home/vscode/.venv/bin/python"
+        ],
+        "jupyter.kernels.filter": [
+          {
+            "path": "/home/vscode/.venv/bin/python",
+            "type": "pythonEnvironment"
+          }
+        ]
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance", 
+        "ms-toolsai.jupyter@2025.8.2025082701",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.jupyter-renderers"
+      ]
+    }
+  },
+  "remoteUser": "vscode"
+}

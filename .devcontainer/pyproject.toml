@@ -1,0 +1,24 @@
+
+[project]
+name = "L2D-VE"
+version = "0.1.0"
+description = "L2D General Virtual Environment"
+requires-python = ">=3.13"
+
+dependencies = [
+    "pip>=24",
+    "numpy<2.4",
+    "pandas<2.4", 
+    "scipy<1.17",
+    "scikit-learn<1.8",
+    "matplotlib<3.11",
+    "seaborn<0.14",
+    "plotly<6.4",
+    "jupyterlab>=4",
+    "ipykernel>=7",
+    "ipywidgets",
+    "requests",
+]
+
+[dependency-groups]
+dev = []
